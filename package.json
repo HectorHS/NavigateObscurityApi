@@ -1,0 +1,22 @@
+{
+  "name": "navigateobscurityapi",
+  "version": "1.0.0",
+  "description": "API for Navigate Obscurity",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/mysql": "^4.2.0",
+    "fastify": "^4.26.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
